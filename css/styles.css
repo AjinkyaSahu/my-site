@@ -1,0 +1,33 @@
+header {
+    /* background-image: linear-gradient(to bottom right, #e5ccff, #bd80ff, #1a75ff, orange); */
+    background-color: rgb(247, 168, 168);
+    opacity: 0.7;
+    height: 50%rem;
+}
+
+#name {
+    font-size: 5em;
+    font-family: serif;
+    color: #008000;
+    text-align: center;
+    animation: animate 1.5s linear infinite;
+    /* animation: type 8s steps(40, end); */
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 0;
+    }
+}
